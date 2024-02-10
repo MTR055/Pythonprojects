@@ -1,5 +1,8 @@
 import turtle
 class Score(turtle.Turtle):
+    """
+    Calculates score of the user
+    """
     def __init__(self):
         super().__init__()
         self.score=0
