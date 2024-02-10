@@ -1,5 +1,8 @@
 import turtle
 class Create_boundary():
+    """
+    creates boudaries of boxes
+    """
     def __init__(self):
         self.walls = []
         self.create_boundary()
