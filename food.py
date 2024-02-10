@@ -2,6 +2,9 @@ import turtle
 import random
 colours=['Green','Red','Blue','Orange','Yellow','Brown','Purple','Black','Violet']
 class Food(turtle.Turtle):
+    """
+    Created food for the turtl
+    """
     def __init__(self):
         super().__init__()
         self.createfood()
